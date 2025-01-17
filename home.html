@@ -9,26 +9,36 @@
 <body>
     <header>
         <h1>Cursos Online</h1>
+        <!-- Menú desplegable -->
+        <button id="menu-toggle">☰ Menú</button>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Matrícula</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    
     <div class="main-container">
         <div class="sidebar">
             <section class="recent-posts">
                 <h2>Entradas recientes</h2>
                 <ul>
-                    <li><a href="#">Curso de HTML básico</a></li>
-                    <li><a href="#">Introducción a CSS</a></li>
-                    <li><a href="#">JavaScript para principiantes</a></li>
+                    <li><a href="#">Novedades del curso 2022</a></li>
+                    <li><a href="#">Notas de Programación A4</a></li>
+                    <li><a href="#">Viaje a Amazon</a></li>
+                    <li><a href="#">Los últimos proyectos</a></li>
+                    <li><a href="#">El diseño adaptativo</a></li>
                 </ul>
             </section>
             
             <section class="categories">
                 <h2>Categorías</h2>
                 <ul>
-                    <li><a href="#">Frontend</a></li>
-                    <li><a href="#">Backend</a></li>
-                    <li><a href="#">Diseño</a></li>
-                    <li><a href="#">Desarrollo móvil</a></li>
+                    <li><a href="#">Programación</a></li>
+                    <li><a href="#">Recursos</a></li>
+                    <li><a href="#">HTML</a></li>
                 </ul>
             </section>
         </div>
@@ -56,21 +66,41 @@
             </div>
             <div class="course-box">
                 <div class="course-image">
-                    <img src="Fotos/java.png" alt="Curso de JavaScript">
+                    <img src="Fotos/js.png" alt="Curso de JavaScript">
                 </div>
                 <div class="course-info">
-                    <h3>Curso JavaScript</h3>
-                    <p>Conviértete en un experto en programación con JavaScript.</p>
+                    <h3>Curso de JavaScript</h3>
+                    <p>JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.</p>
                     <button>Ver Curso</button>
                 </div>
             </div>
             <div class="course-box">
                 <div class="course-image">
-                    <img src="Fotos/js.png" alt="Curso de JavaScript">
+                    <img src="Fotos/php.png" alt="Curso de PHP">
                 </div>
                 <div class="course-info">
-                    <h3>Curso de React</h3>
-                    <p>JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.</p>
+                    <h3>Curso de PHP</h3>
+                    <p>PHP es un lenguaje de programación interpretado del lado del servidor y de uso general que se adapta especialmente al desarrollo web. Fue creado inicialmente por el programador danés-canadiense Rasmus Lerdorf en 1994</p>
+                    <button>Ver Curso</button>
+                </div>
+            </div>
+            <div class="course-box">
+                <div class="course-image">
+                    <img src="Fotos/node.png" alt="Curso de Node">
+                </div>
+                <div class="course-info">
+                    <h3>Curso de Node</h3>
+                    <p>Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello) basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google.</p>
+                    <button>Ver Curso</button>
+                </div>
+            </div>
+            <div class="course-box">
+                <div class="course-image">
+                    <img src="Fotos/java.png" alt="Curso de Java">
+                </div>
+                <div class="course-info">
+                    <h3>Curso de Java</h3>
+                    <p>Java es un lenguaje de programación y una plataforma informática que fue comercializada por primera vez en 1995 por Sun Microsystems.</p>
                     <button>Ver Curso</button>
                 </div>
             </div>
@@ -80,5 +110,6 @@
     <footer>
         <p>&copy; 2025 Cursos Online</p>
     </footer>
+    <script src="js/home.js"></script>
 </body>
 </html>
